@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>KG MOTORS LTD</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+                <nav>
+                <a href="index.html"><img src=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>KG MOTORS LTD</h1>
+                <p>KG MOTORS LTD is one of the best motors company giving the best CARS!!.<br>Visit us and get your self brand marchines from our best car companies in our region!!</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </div>
+
+<!----Footer-->
+
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>KG MOTORS LTD have been one of the Licenced company with millions of best brands of cars!! The advantage about our Company is that they are all four wheel Machines!! Come and get your self a brand new car and you will blame no one!!</p>
+    <div class="icons">
+        <i class="fa fa-Facebook"></i>
+        <i class="fa fa-Twitter"></i>
+        <i class="fa fa-Instagram"></i>
+        <i class="fa fa-Linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by KG MOTORS LTD!</p>
+</section>
+
+<!--------javaScript for Toogle Menu-------->
+        <script>
+
+            var navLinks= document.getElementById("navLinks");
+
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+
+    </body>
+</html>

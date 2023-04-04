@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>KG MOTORS LTD</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="sub-header">
+                <nav>
+                <a href="index.html"><img src=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </div>
+
+<!-----about us content----->
+<section class="About-us">
+
+    <div class="row">
+        <div class="About-col">
+            <h1>KG MOTORS LTD is one of the biggest Company within the region!!</h1>
+            <p1>KG MOTORS LIMITED Welcomes you for the best products!,<br>with the services,and all requirements complied with!<br></p>
+        </div>
+        <div class="About-col">
+            <img src="bugatti.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!----Footer-->
+
+<section class="Footer">
+    <h4></h4>
+    <p></p>
+    <div class="icons">
+        <i class="fa fa-Facebook"></i>
+        <i class="fa fa-Twitter"></i>
+        <i class="fa fa-Instagram"></i>
+        <i class="fa fa-Linkedin"></i>
+    </div>
+</section>
+
+<!--------javaScript for Toogle Menu-------->
+        <script>
+
+            var navLinks= document.getElementById("navLinks");
+
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+    </body>
+</html>
